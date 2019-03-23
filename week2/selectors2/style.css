@@ -27,3 +27,11 @@ p:nth-child(6) {
 p:nth-child(3n+1) {
     background: red;
   }
+
+h1:only-child {
+    background-color: green;
+}
+
+div:only-child {
+    color: red;
+  }
