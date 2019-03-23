@@ -1,0 +1,21 @@
+body {
+    font-size: 16px;
+    max-width: 900px;
+    border: 1px darkblue;
+    margin: 12px
+}
+
+div p {
+  background-color: darkgray;
+}
+
+div > p {
+  color: gray
+}
+
+div + p {
+  background-color: yellow;
+}
+div ~ p {
+  color: aqua
+}
