@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    max-width: 900px;
+    border: 1px darkblue;
+    margin: 12px
+}
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(odd) {
+    background: yellow;
+}
+  
+li:nth-child(even) {
+    background: lightpink;
+}
+
+p:nth-child(6) {
+    background-color: gray;
+}
+
+p:nth-child(3n+1) {
+    background: red;
+  }
