@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(176, 206, 204);
+    color: rgb(15, 134, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 5px auto;
+    padding: 0 16px;
+    max-width: 800px; 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: lightslategray;
+    font-size: 22px;
+    text-indent: 30px;
+}
+.class1 {
+    color: darkgreen;
+    font-size: 8px;
+}
+.class2 {
+    color: darkorange;
+    font-size: 12px;
+}
+.class3 {
+    color: darkblue;
+    font-size: 18px;
+}
+#id {
+    color: mediumslateblue;
+    font-size: 32px;
+    text-indent: 30px;
+    
+}
