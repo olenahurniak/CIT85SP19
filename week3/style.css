@@ -1,0 +1,15 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+div {
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: orange;
+    background-color: yellow;
+    border-radius: 15% 50%;
+    margin: 5px;
+    display: inline-block;
+}
