@@ -1,0 +1,43 @@
+body {
+    width: 1200px;
+    border: 10px orange solid;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+h1 {
+    text-align: center;
+    color: darkgoldenrod;
+    border: 1px solid lightcoral;
+    margin: 15px;
+    padding: 25px;
+    width: 1100px;
+    
+}
+
+div {
+    width: 800px;
+    height: 70px;
+    border: 2px solid olivedrab;
+    margin: 15px;
+    padding: 5px;
+    /* box-sizing: border-box; */
+    /* border-radius: 15%; */
+    
+}
+
+p {
+    width: 600px;
+    height: 70px;
+    border: 5px solid lightgreen;
+    margin: 15px;
+    padding: 5px;
+    /* box-sizing: border-box; */
+}
+span {
+    color: orange;
+    border: 0.2px solid red;
+    padding: 2px;
+    margin: 2px;
+}
