@@ -1,0 +1,100 @@
+body {
+    width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    color: brown;
+    text-align: center
+
+}
+h1 {
+    text-shadow: 3px 3px 6px green;
+}
+div {
+    text-align: justify;
+    color: darkgreen;
+    margin: 20px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.class1 {
+    color: darkturquoise;
+    font-size: 22px;
+    font-family: serif;
+}
+
+.class2 {
+    color: lightgreen;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.class3 {
+    color: lightskyblue;
+    font-size: 18px;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.class4 {
+    color: darkgrey;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.class5 {
+    color: darkmagenta;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+.class6 {
+    color: darkcyan;
+    font-size: 16px;
+    font-style: italic; 
+    letter-spacing: 8px;
+}
+
+.class7 {
+    color: blue;
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+.class8 {
+    color: rebeccapurple;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px green;
+}
+
+.class9 {
+    color: orangered;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: italic;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+.class10 {
+    color: blue;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.class11 {
+    color: orange;
+    font-size: 16px;
+    text-indent: 50px;
+}
+p {
+    text-indent: 50px;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
