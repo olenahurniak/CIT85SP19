@@ -1,0 +1,58 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+main {
+    height: 100vh;
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 150px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font: 900 2rem sans-serif;
+
+}
+
+.d1 {
+    flex-basis: 100%;
+    background-color: rgb(255, 80, 80);
+}
+
+.d2 {
+    flex-basis: 60%;
+    background-color: lightblue;
+}
+
+.d3 {
+    flex-basis: 40%;
+    background-color: lawngreen;
+}
+
+.d4 {
+    flex-basis: 45%;
+    background-color: yellow;
+}
+
+.d5 {
+    flex-basis: 55%;
+    background-color: plum;
+}
