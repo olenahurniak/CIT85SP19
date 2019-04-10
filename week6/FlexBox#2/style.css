@@ -1,0 +1,38 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+
+main {
+    height: 100vh;
+    border: 2px solid brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-evenly;
+    align-content: flex-start;
+}
+
+div {
+    width: 400px;
+    height: 70px;
+    border: 1px solid brown;
+    /* background-color: green; */
+    /* margin: 20px; */
+    font: bold 2rem/1 sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+
+}
+
+#one #three {
+    flex-grow: 1;
+}
+
+#two {
+    flex-grow: 2;
+}
