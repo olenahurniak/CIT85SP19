@@ -1,12 +1,12 @@
 body {
-    background-color: aquamarine;
+    background-color: lightyellow;
 }
 #div1 {
     width: 200px;
     height: 50px;
-    background-color: lightgrey;
+    background-color: rgba(192,192,192,0.3);
     text-align: center;
-    border: 3px solid darkgray;
+    border: 1px solid darkgray;
     position: fixed;
     right: 0;
     bottom: 0;
