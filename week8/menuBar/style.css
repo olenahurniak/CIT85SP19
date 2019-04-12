@@ -1,0 +1,27 @@
+html, body, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    background: lightpink;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    display: block;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightpink;
+}
+
+a:hover {
+    background: lightcoral;
+}
