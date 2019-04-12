@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+}
+#div1 {
+    width: 200px;
+    height: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    border: 3px solid darkgray;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
+p {
+    text-indent: 20px;
+}
