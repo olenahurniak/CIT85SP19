@@ -1,0 +1,42 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+header {
+    padding: 30px;
+    border: 5px solid grey;
+    height: 150px;
+    background-color: lavender;
+}
+main {
+    /* height: 150px; */
+    border: 5px solid brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 150px;
+    border: 5px solid grey;
+    background-color: lavender;
+}
+div {
+    height: 200px;
+    margin: 2px;
+    border: 2px solid purple;
+}
+
+
+#left {
+    background-color: lightpink;
+    flex-basis: 20%;
+}
+#right {
+    background-color: lightsalmon;
+    flex-basis: 79%;
+}
